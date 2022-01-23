@@ -1,7 +1,7 @@
 
 ## 👋 Welcome to WyreBitcoin, WrBTC Token, Wallet, Exchange, Swap, AtomicSwap 👋
 
-<img src="https://pbs.twimg.com/media/FJy-fPGXoAIQHSt?format=png" alt="WyreBitcoin Crypto">
+<img src="https://raw.githubusercontent.com/wyrebitcoin/README.md/main/wrbtc-img.png" alt="WyreBitcoin Crypto">
 
 
 
