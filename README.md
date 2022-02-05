@@ -1,5 +1,5 @@
 
-## 👋 Welcome to WyreBitcoin, WrBTC Token, Wallet, Exchange, Swap, AtomicSwap 👋
+## 👋 Welcome to WyreBitcoin, WyBTC Token, Wallet, Exchange, Swap, AtomicSwap 👋
 
 <img src="https://raw.githubusercontent.com/wyrebitcoin/README.md/main/wrbtc-img.png" alt="WyreBitcoin Crypto">
 
@@ -8,7 +8,7 @@
 ## Useful Links 🌎
 - Visit Website: https://www.wyrebitcoin.com
 - View Portfolio: https://github.com/wyrebitcoin
-- View on Etherscan: https://etherscan.io/token/0xa0baf9cbb6feb0adb651c9d2a761bee5801ed6ca
+- View on Etherscan: https://etherscan.io/token/0x2b9ac6dc32d91215afb6757d88afadfb1b456c86
 - Join WyreBitcoin Community: https://t.me/wyrebitcoin
 - Follow On Facebook: https://www.facebook.com/WrBTC
 - Follow Official Twitter: https://twitter.com/wyrebitcoin
