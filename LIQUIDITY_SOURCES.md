@@ -1,6 +1,6 @@
 # How to add your own token
 
-1. use https://supertoken.xyz/ to create a token if you don't have it yet. 
+1. use [[https://supertoken.xyz/](https://www.openzeppelin.com/)](https://www.openzeppelin.com/) to create a token if you don't have it yet. 
 2. add a pool to one of these DEXes
 
 ## Supported liquidity sources
