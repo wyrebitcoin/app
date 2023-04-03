@@ -1,7 +1,7 @@
 {
   "name": "Wallet",
-  "short_name": "Wallet",
-  "description": "Hot wallet",
+  "short_name": "WyreBitcoin",
+  "description": "DeFi wallet and swap",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
