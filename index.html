@@ -42,7 +42,598 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column;<!doctype html>
+<html lang="en-US" class="no-js">
+<head>
+<meta charset="UTF-8">
+			<!-- Google Analytics opt-out snippet added by Site Kit -->
+			<script type="text/javascript">
+window["ga-disable-UA-85458515-6"] = true;
+</script>
+			<script type="text/javascript">
+window["ga-disable-G-0679NB59QK"] = true;
+</script>
+			<!-- End Google Analytics opt-out snippet added by Site Kit -->
+			<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<title>WyreBitcoin Swap and Wallet</title>
+	
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.wyrebitcoin.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="https://api.w.org/" href="https://www.wyrebitcoin.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.wyrebitcoin.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.wyrebitcoin.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<meta name="generator" content="Site Kit by Google 1.90.1" />		<style type="text/css">
+			.um_request_name {
+				display: none !important;
+			}
+		</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<link rel="icon" href="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.wpforms-form input[type=submit], 
+.wpforms-form button[type=submit] {
+background-color:#40D1AB!important; 
+	border-radius: 15px!important;
+ border: none!important;
+  color: white!important;
+  padding: 15px!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  display: inline-block!important;
+  font-size: 16px!important;
+  margin: 4px 2px!important;
+  cursor: pointer!important;
+}
+.wpforms-field-container{
+
+	border-radius: 15px!important;
+ border: none!important;
+ 
+ padding: 1px!important; 
+}
+.data-tut-store _3vC-q844BKVYJtyarbnVxa{
+	color-background-elements: #cc9696;
+}
+
+    		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><link rel="icon" href="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/cropped-logo-black-270x270.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google" content="notranslate" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#fff">
+<meta name="application-name" content="swap.online">
+<link rel='stylesheet' id='mcwallet-bootstrap-css' href='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/assets/css/bootstrap.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/assets/css/fontawesome.min.css?ver=5.7.21-1.1.1489' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/assets/css/swiper.min.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mcwallet-style-css' href='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/assets/css/style.css?ver=1.1.1489-c65861-mainnet' type='text/css' media='all' />
+<link rel='stylesheet' id='mcwallet-google-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C700%2C900%7CRoboto+Mono&#038;display=swap&#038;subset=latin%2Ccyrillic&#038;ver=1.1.1489-c65861' type='text/css' media='all' />
+<link rel='stylesheet' id='mcwallet-app-css' href='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/vendors/swap/app.css?ver=1.1.1489-c65861-mainnet' type='text/css' media='all' />
+<script>
+  var isWidgetBuild = "true";
+</script>
+
+<style id="mcwallet-inline-styles">
+:root,
+[data-scheme="default"] {
+	--color: #000000;
+	--color-page-background: #f7f7f7;
+	--color-brand: #6144e5;
+	--color-brand-hover: #7371ff;
+	--color-brand-background: #e8e5f5;
+}
+[data-scheme="dark"],
+.darkTheme {
+	--color: #ffffff;
+	--color-page-background: #1e1e23;
+	--color-brand: #6144e5;
+	--color-brand-hover: #7371ff;
+	--color-brand-background: #6144e51a;
+}
+:root,
+[data-scheme="default"],
+[data-scheme="dark"] {
+  --button-border-radius: 1rem;
+  --main-component-border-radius: 2rem;
+}
+</style>
+	</head>
+<body class="blog logged-in admin-bar no-customize-support nt-shortcode-1.5.0 Ninetheme-Crypterium Ninetheme-Version-1.8.8 wpb-js-composer js-comp-ver-6.8.0 vc_responsive">
+
+	
+		<div id="root"></div><!-- #root -->
+		<!-- Loader before any JS -->
+		<div id="wrapper_element" class="overlay">
+			<div class="center">
+				<div id="loader" class="loader">
+					<img id="loaderImg" class="logo-light" src="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/wybtc-crypto.png" alt="WyreBitcoin Swap and Wallet">
+					<img id="loaderImg" class="logo-dark" src="https://www.wyrebitcoin.com/wp-content/uploads/2022/01/wybtc-logo-li.png" alt="WyreBitcoin Swap and Wallet">
+				</div>
+				<div id="beforeJSTip" class="tips">
+					Save your recovery phrase in safe place and do not forget where is saved!!				</div>
+			</div>
+			<div class="mb-4 show-on-fail-ls d-none" id="onFailLocalStorageMessage">
+				<span>Not every function works In this window, please open new tab.					If the error will repeat please contact admin					<br>
+					<a href="https://t.me/wyrebitcoin">https://t.me/wyrebitcoin</a>
+				</span>
+				<button class="btn btn-primary btc-open-in-new-tab">
+					<a href="https://www.wyrebitcoin.com/app/crypto-wallet/" id="onFailLocalStorageLink" target="_blank">
+						Open App in new tab					</a>
+				</button>
+			</div>
+			<div id="usersInform" class="usersInform"></div>
+		</div>
+
+		<div id="portal"></div>
+
+	
+	<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-includes/js/dist/vendor/react.min.js?ver=17.0.1' id='react-js'></script>
+<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=17.0.1' id='react-dom-js'></script>
+<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/assets/js/swiper.min.js?ver=4.5.1' id='swiper-js'></script>
+<script type='text/javascript' id='mcwallet-vendor-js-extra'>
+/* <![CDATA[ */
+var mcwallet = {"ajaxurl":"https:\/\/www.wyrebitcoin.com\/wp-admin\/admin-ajax.php","nonce":"63264866c1"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='mcwallet-vendor-js-before'>
+	const getNavigatorLanguage = () => {
+		if (navigator.languages && navigator.languages.length) {
+			return navigator.languages[0];
+		} else {
+			return navigator.userLanguage || navigator.language || navigator.browserLanguage || "en";
+		}
+	};
+
+	var localStorageIsOk = true;
+	try {
+		var testLocalStorage = window.localStorage;
+	} catch (e) {
+		localStorageIsOk = false
+		document.getElementById("onFailLocalStorageLink").href = window.location.href;
+		document.getElementById("onFailLocalStorageMessage").classList.remove("d-none");
+		var sendErrorFeedback = function () {
+			var msg = "localStorage error: agent("+navigator.userAgent+")";
+					msg+= ", location("+window.location.href+")";
+
+			var url = "https://noxon.wpmix.net/counter.php?msg="+encodeURI(msg);
+
+			window.jQuery.ajax({
+				type: "POST",
+				url: url
+			});
+		};
+		if (!window.jQuery) {
+			// inject jQuery for send request to counter for feedback
+			var jsScriptTag = document.createElement("SCRIPT");
+				jsScriptTag.src = "https://www.wyrebitcoin.com/wp-includes/js/jquery/jquery.min.js";
+				console.log("jsScriptTag", jsScriptTag);
+			document.getElementsByTagName("BODY")[0].appendChild(jsScriptTag);
+			var waitJQLoad = function (onLoaded) {
+				if (window.jQuery) {
+					onLoaded();
+				} else {
+					window.setTimeout( function () {
+						waitJQLoad(onLoaded);
+					}, 100);
+				};
+			};
+			waitJQLoad(sendErrorFeedback);
+		} else {
+			sendErrorFeedback();
+		};
+	};
+
+	function setCookie(name, value, options) {
+		options = options || {};
+		var expires = options.expires;
+		if (typeof expires == "number" && expires) {
+			var d = new Date();
+			d.setTime(d.getTime() + expires * 1000);
+			expires = options.expires = d;
+		}
+		if (expires && expires.toUTCString) {
+			options.expires = expires.toUTCString();
+		}
+
+		value = encodeURIComponent(value);
+		var updatedCookie = name + "=" + value;
+
+		for (var propName in options) {
+			updatedCookie += "; " + propName;
+			var propValue = options[propName];
+			if (propValue !== true) {
+				updatedCookie += "=" + propValue;
+			}
+		}
+		document.cookie = updatedCookie;
+	}
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(";");
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == " ") {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	var advice = document.getElementById("beforeJSTip");
+
+	const wrapper = document.getElementById("wrapper_element");
+
+	document.body.setAttribute("data-scheme", "default");
+
+	const default_theme = "only_dark";
+	const isDark = localStorage.getItem('isDark')
+	const isLight = localStorage.getItem('isLight')
+	const isSystemDark = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+	if (!isDark && !isLight && (default_theme !== 'only_dark') && (default_theme !== 'only_light') && isSystemDark) {
+		document.body.setAttribute("data-scheme", "dark");
+		wrapper.classList.add("dark");
+		window.localStorage.setItem("isDark", "true");
+		window.localStorage.removeItem("isLight");
+	} else {
+		if ( isDark || default_theme === "only_dark") {
+			document.body.setAttribute("data-scheme", "dark");
+			wrapper.classList.add("dark");
+			window.localStorage.setItem("isDark", "true");
+			window.localStorage.removeItem("isLight");
+		} else {
+			if (window.localStorage.getItem("isLight")) {
+				wrapper.classList.remove("dark");
+				window.localStorage.removeItem("isDark");
+				window.localStorage.setItem("isLight", "true");
+			}
+		}
+		if ( isDark === null && isLight === null && default_theme === "dark") {
+			wrapper.classList.add("dark");
+			window.localStorage.setItem("isDark", "true");
+		}
+		if (default_theme === "only_light") {
+			document.body.setAttribute("data-scheme", "default");
+			wrapper.classList.remove("dark");
+			window.localStorage.removeItem("isDark");
+			window.localStorage.removeItem("isLight");
+		}
+	}
+
+	let lang = getCookie("mylang");
+	const defaultLanguage = "en";
+
+	if (!lang) {
+		lang = defaultLanguage;
+		setCookie("mylang", defaultLanguage);
+	}
+
+	const locale = lang.toLowerCase();
+	const locationName = lang.toUpperCase();
+
+	advice.innerText = "Save your recovery phrase in safe place and do not forget where is saved!!";
+
+	var information = document.getElementById("usersInform");
+
+	if (localStorage.length === 0) {
+		information.innerText = "Please wait while the application is loading, it may take one minute...";
+	}
+	
+window.widgetEvmLikeTokens = [
+{
+				name: 'usdt',
+				symbol: 'usdt',
+				standard: 'erc20',
+				address: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+				decimals: 6,
+				fullName: 'TetherUSD',
+				icon: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png',
+				customExchangeRate: '',
+				iconBgColor: '',
+				howToDeposit: '',
+				howToWithdraw: '',
+				order: '0',
+			},
+{
+				name: 'wybtc',
+				symbol: 'wybtc',
+				standard: 'erc20',
+				address: '0x2B9aC6dC32D91215aFb6757d88afadfb1B456c86',
+				decimals: 18,
+				fullName: 'WyreBitcoin',
+				icon: 'https://etherscan.io/token/images/wyrebitcoin_32.png',
+				customExchangeRate: '',
+				iconBgColor: '#ffffff',
+				howToDeposit: '',
+				howToWithdraw: '',
+				order: '1',
+			},
+{
+				name: 'shib',
+				symbol: 'shib',
+				standard: 'bep20',
+				address: '0x2859e4544C4bB03966803b044A93563Bd2D0DD4D',
+				decimals: 18,
+				fullName: 'SHIB bnb',
+				icon: 'https://www.wyrebitcoin.com/wp-content/uploads/2022/01/5994.png',
+				customExchangeRate: '',
+				iconBgColor: '',
+				howToDeposit: '',
+				howToWithdraw: '',
+				order: '2',
+			},
+{
+				name: 'luna',
+				symbol: 'luna',
+				standard: 'erc20',
+				address: '0xbd31ea8212119f94a611fa969881cba3ea06fa3d',
+				decimals: 6,
+				fullName: 'LUNA',
+				icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png',
+				customExchangeRate: '',
+				iconBgColor: '',
+				howToDeposit: '',
+				howToWithdraw: '',
+				order: '9',
+			},
+{
+				name: 'quack',
+				symbol: 'quack',
+				standard: 'bep20',
+				address: '0xD74b782E05AA25c50e7330Af541d46E18f36661C',
+				decimals: 9,
+				fullName: 'RichQUACKcom',
+				icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/10641.png',
+				customExchangeRate: '',
+				iconBgColor: '',
+				howToDeposit: '',
+				howToWithdraw: '',
+				order: '9',
+			}
+]
+
+window.prerenderReady = false;
+window.CUSTOM_LOGO = false;
+window.LOGO_REDIRECT_LINK = 'https://www.wyrebitcoin.com/';
+window.logoUrl = 'https://www.wyrebitcoin.com/wp-content/uploads/2022/01/wybtc-crypto.png';
+window.darkLogoUrl = 'https://www.wyrebitcoin.com/wp-content/uploads/2022/01/wybtc-logo-li.png';
+window.publicUrl = 'https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/vendors/swap/';
+window.chunkURL = 'https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/vendors/swap/';
+window.defaultWindowTitle = 'WyreBitcoin Wallet with Swap and p2p exchange';
+window.DEFAULT_FIAT = 'USD';
+window.isUserRegisteredAndLoggedIn = true;
+window.buyViaCreditCardLink = 'https://www.wyrebitcoin.com/buy-and-sell-crypto/';
+window.transakApiKey = 'f40de8a0-99a4-4554-8275-d85c7c97aa05';
+window.logoutUrl = 'https://www.wyrebitcoin.com/lo-g-in/?action=logout&amp;redirect_to=https%3A%2F%2Fwww.wyrebitcoin.com%2Fwallet%2F&amp;_wpnonce=4ca9692c62';
+window.showHowItWorksOnExchangePage = 0;
+window.widgetName = 'WyreBitcoin Swap and Wallet';
+window.STATISTICS_ENABLED = false;
+window.EXCHANGE_DISABLED = false;
+window.SO_disableInternalWallet = false;
+window.CUR_GHOST_DISABLED = false;
+window.CUR_NEXT_DISABLED = false;
+window.hideServiceLinks = false;
+window.invoiceEnabled = true;
+window.exchangeMode = 'quick';
+window.quickswapMode = 'only_source';
+window.defaultLanguage = 'en';
+window.WPSO_selected_theme = 'only_dark';
+window.zeroxFeePercent = 0;
+window.pluginVersion = '1.1.1489';
+window.SO_addAllEnabledWalletsAfterRestoreOrCreateSeedPhrase = false;
+window.CUR_BTC_DISABLED = false;
+window.CUR_ETH_DISABLED = false;
+window.CUR_BNB_DISABLED = false;
+window.CUR_MATIC_DISABLED = false;
+window.CUR_FTM_DISABLED = false;
+window.CUR_AVAX_DISABLED = false;
+window.CUR_MOVR_DISABLED = false;
+window.CUR_ONE_DISABLED = false;
+window.CUR_ARBITRUM_DISABLED = false;
+window.CUR_AURORA_DISABLED = false;
+window.CUR_PHI_DISABLED = false;
+window.CUR_PHI_V2_DISABLED = false;
+window.CUR_AME_DISABLED = false;
+window.CUR_XDAI_DISABLED = false;
+window.setItemPlugin = 'saveUserData';
+window.WPuserUid = 1;
+window.userDataPluginApi = 'https://www.wyrebitcoin.com/wp-admin/admin-ajax.php?action=mcwallet_update_user_meta';
+window.WPuserHash = '3644fced20d491ed315274911bd798fe';
+window.backupPlugin = 'backupUserData';
+window.backupUrl = 'https://www.wyrebitcoin.com/wp-admin/admin-ajax.php?action=mcwallet_backup_userwallet';
+window.restoreUrl = 'https://www.wyrebitcoin.com/wp-admin/admin-ajax.php?action=mcwallet_restore_userwallet';
+window.licenceInfo = false;
+
+window.widgetERC20Comisions = {
+    "btc": {
+        "fee": "0.001",
+        "address": "328SDk4drCesDYVVMEg7o327wd82x9ErW2"
+    },
+    "eth": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "bnb": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "matic": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "ftm": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "avax": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "movr": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "one": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "xdai": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "arbeth": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "aureth": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "phi": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "ame": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "bep20": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20matic": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20ftm": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20avax": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20movr": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20one": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20xdai": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20aurora": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "phi20": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    },
+    "erc20ame": {
+        "fee": "0.001",
+        "min": "0.0001",
+        "address": "0xd7608b39d81a9b4f6EbA21309503A6563D8493A0"
+    }
+};
+
+window.SO_FaqBeforeTabs = [];
+
+window.SO_FaqAfterTabs = [
+    {
+        "title": "Earn interest on Bitcoin!",
+        "content": "BTC, ETH, WBTC crypto wallet with marketmaking feature. User can exchange BTC to another crypto or earns interest on bitcoin by providing liquidity to exchange. How it works? 1. in first start the app generates 12 words secret phrase and creates BTC, WBTC and ETH crypto wallets 2. user can deposit\/withdraw crypto 3. user enable\/disable \\\\\\\"marketmaking\\\\\\\" Why it works? The marketmaker earns on the difference in exchange rates when servicing the purchase and sale (spread) Is it safe? - The system is in beta - There is an audit from dsec - We recommend investing only those funds that you do not mind losing - The keys to your funds are only with you, we do not have access to your funds - Risk Notification How much will I earn? It depends on the number of swaps and the spread. Ask any questionssupport. Why do I need WBTC? I am only interested in earning BTC. You can replenish only with Bitcoin, but inevitably, at some periods, your BTC balance may decrease, and WBTC may increase, and vice versa. At any given time, the sum of these balances will be greater than before. If you want to withdraw BTC, but some of them are in WBTC, then you will have to change WBTC yourself, for example, through the Binance exchange. Why don\\'t users exchange themselves through the Binance exchange? Our clients love and support decentralization, exchange works through smart contracts and we will not be able to freeze the client\\'s funds for more than 3 hours. What is the minimum period of marketmaking? There is no minimum term, you can withdraw funds at any time. How to increase earnings? Tell about the possibility of swap in the communities where you are a member."
+    },
+    {
+        "title": "Add any token?",
+        "content": "You can add any token from https:\/\/etherscan.io\/tokens, https:\/\/bscscan.io\/tokens (or your own ERC20 or BEP20 token), Matic tokens. In the Wallet section, press the add custom token button."
+    }
+];
+
+window.SO_MenuItemsBefore = [
+    {
+        "title": "Home",
+        "link": "https:\/\/www.wyrebitcoin.com",
+        "newwindow": false
+    }
+];
+
+window.SO_MenuItemsAfter = [
+    {
+        "title": "Earn",
+        "link": "#/marketmaker\/{eth}wbtc",
+        "newwindow": false
+    }
+];
+
+window.bannersOnMainPage = [["Quick Swap","Quick Swap","Quick Swap","https:\/\/www.wyrebitcoin.com\/wp-content\/uploads\/2022\/01\/Wyrebitcoin-Atomic-Swap-e1644012606567.jpg","https:\/\/www.wyrebitcoin.com\/wallet\/#\/exchange\/quick",""],["Buy Crypto","Buy Crypto","Buy Crypto","https:\/\/www.wyrebitcoin.com\/wp-content\/uploads\/2022\/01\/Buy-Crypto-with-card.png","https:\/\/www.wyrebitcoin.com\/buy-and-sell-crypto",""]];
+</script>
+<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/vendors/swap/vendor.js?ver=1.1.1489-c65861' id='mcwallet-vendor-js'></script>
+<script type='text/javascript' src='https://www.wyrebitcoin.com/wp-content/plugins/wallet-pro/includes/scripts/load-app.php?ver=1.1.1489-c65861-mainnet' id='mcwallet-app-js'></script>
+
+</body>
+</html>
+
         background-color: var(--color-page-background);
         position: fixed;
         top: 0;
